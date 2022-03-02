@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Which Simpsons Character Are You?</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Which Simpsons Character Are You?</h1>
+      <!-- Form: Questions for user to input answers to -->
+      <form id="survey">
+        <!-- Question 1 -->
+        <br />
+        <p>1. What's been your greatest achievement?</p>
+        <select class="form-control" id="question1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <br />
+        <!-- Question 2 -->
+        <p>2. What describes you best?</p>
+        <select class="form-control" id="question2">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <br />
+        <!-- Question 3 -->
+        <p>3. What's your greatest fear?</p>
+        <select class="form-control" id="question3">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+        <br />
+        <!-- Question 4 -->
+        <p>4. What's your hobby?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="1" />
+            1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="2" />
+            2
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="3" />
+            3
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question4" value="4" />
+            4
+          </label>
+        </div>
+        <br />
+        <!-- Question 5 -->
+        <p>5. What's your biggest regret?</p>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="1" />
+            1
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="2" />
+            2
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="3" />
+            3
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="question5" value="4" />
+            4
+          </label>
+        </div>
+        <br />
+        <!-- Submit button -->
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="results">
+        <br />
+        <p>You are most like: <span id="character"></span>.</p>
+      </div>
+    </div>
+  </body>
+</html>

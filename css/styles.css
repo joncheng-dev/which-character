@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+
+p {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.btn {
+  background-color: lightgray;
+}
+
+#character {
+  background-color: yellow;
+  font-size: larger;
+}
