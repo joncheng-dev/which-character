@@ -1,3 +1,9 @@
+body {
+  background-color: peachpuff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}
+
 h1 {
   text-align: center;
 }

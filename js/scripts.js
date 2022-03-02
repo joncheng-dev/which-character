@@ -11,10 +11,15 @@ $(document).ready(function () {
 
     if (total >= 5 && total <= 10) {
       $("#character").text("Bart Simpson");
+      $("#picture").append("<img src='img/bart.jpg' alt='Picture of Bart'>");
     } else if (total >= 11 && total <= 15) {
       $("#character").text("Lisa Simpson");
+      $("#picture").append("<img src='img/lisa.jpg' alt='Picture of Lisa'>");
     } else if (total >= 16 && total <= 20) {
       $("#character").text("Maggie Simpson");
+      $("#picture").append(
+        "<img src='img/maggie.jpg' alt='Picture of Maggie'>"
+      );
     }
   });
 });
